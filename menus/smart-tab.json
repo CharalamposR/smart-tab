@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle smart-tab",
+        "command": "smart-tab:presstab"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "smart-tab",
+          "submenu": [
+            {
+              "label": "Presstab",
+              "command": "smart-tab:presstab"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

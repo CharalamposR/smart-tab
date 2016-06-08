@@ -1,0 +1,18 @@
+{
+  "name": "smart-tab",
+  "main": "./lib/smart-tab",
+  "version": "0.0.0",
+  "description": "This package provides a smart-tab option. If the text before the cursor is a non-white character then a soft tab is inserted. Otherwise a hard tab is put in place.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "smart-tab:presstab"
+  },
+  "repository": "https://github.com/atom/smart-tab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
